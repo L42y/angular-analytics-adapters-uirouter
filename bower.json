@@ -1,0 +1,27 @@
+{
+  "name": "angular-analytics-adapters-uirouter",
+  "main": "angular-analytics-adapters-uirouter.js",
+  "version": "0.1.0",
+  "authors": [
+    "L42y <423300@gmail.com>"
+  ],
+  "description": "ui-router adapter for angular-analytics",
+  "keywords": [
+    "angular",
+    "analytics",
+    "ui-router"
+  ],
+  "license": "WTFPL",
+  "homepage": "https://github.com/L42y/angular-analytics-adapters-uirouter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "*",
+    "angular-analytics": "L42y/angular-analytics#~0.1.0"
+  }
+}
