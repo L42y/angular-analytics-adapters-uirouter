@@ -7,6 +7,6 @@ angular.module('l42y.analytics.adapters.uirouter', [
   Analytics
 ) {
   $rootScope.$on('$stateChangeSuccess', function ($event, toState) {
-    Analytics.page(toState.url);
+    Analytics.page($location.url());
   });
 });
